@@ -66,17 +66,15 @@
 // }
 
 // // the code below works!
-// function printNumbers(i, i) {
+// function printNum(i, i) {
 //     while (i > 0) {
 //         return(i);
 //         i--;
 //     }
 // }
 
-function printNum(i, i) {
-    for i in printNum {
-        if i > 0;
-        return(i);
-        i--;
+function printNum(i, j) {
+    for (var x = i; x <= j; x++) {
+        console.log('the number is: ' + x);
     }
 }
