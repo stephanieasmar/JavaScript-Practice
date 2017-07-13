@@ -39,6 +39,7 @@
 // }
 
 
+
 // // the code below works!
 // function totalAmount(bill, serviceLevel) {
 //     if (serviceLevel == 'good') {
@@ -66,15 +67,68 @@
 // }
 
 // // the code below works!
-// function printNum(i, i) {
+// function printNum(i, j) {
 //     while (i > 0) {
 //         return(i);
-//         i--;
+//         i++;
 //     }
 // }
 
-function printNum(i, j) {
-    for (var x = i; x <= j; x++) {
-        console.log('the number is: ' + x);
-    }
+
+// // the code below works!
+// function printNum(i, j) {
+//     for (var x = i; x <= j; x++) {
+//         console.log('the number is: ' + x);
+//     }
+// }
+
+
+// function posNum(i, j) {
+//     posArray=[]
+//     for (x>=i; x<=j) {
+//         if x in range(i,j) % != 0;
+//         console.log(posArray)
+//     }
+// }
+
+
+
+
+
+// Rock Paper Scissors Game: IT WORKS!
+
+// function rockPaperScissors(player1, player2) {
+//     if (player1 == player2) {
+//         return 'its a tie';
+//     } else if (player1 == 'rock' && player2 == 'scissors') {
+//         return 'Player1 wins!';
+//     } else if (player1 == 'scissors' && player2 == 'rock') {
+//         return 'Player2 wins!';
+//     } else if (player1 == 'rock' && player2 == 'paper') {
+//         return 'Player2 wins!';
+//     } else if (player1 == 'paper' && player2 == 'rock') {
+//         return 'Player1 wins!';
+//     } else if (player1 == 'scissors' && player2 == 'paper') {
+//         return 'Player1 wins!';
+//     } else if (player1 == 'paper' && player2 == 'scissors') {
+//         return 'Player2 wins!';
+//     } else {
+//         return 'Not a valid entry';
+//     }
+// }
+
+// rockPaperScissors('rock', 'paper');
+// rockPaperScissors('paper', 'rock');
+// rockPaperScissors('paper', 'scissors');
+// rockPaperScissors('scissors', 'paper');
+// rockPaperScissors('rock', 'scissors');
+// rockPaperScissors('scissors', 'rock')
+s
+
+
+// var char = str.chrAt(i);
+
+function leet(string) {
+    for (var i = 0; x = string.charAt(i); i++)
 }
+
